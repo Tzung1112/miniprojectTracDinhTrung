@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.content {
+  width: 800px;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.add {
+  border: none;
+  background-color: rgb(248, 249, 250);
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nuoccam {
+  width: 100%;
+  border: 1px solid black;
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.05) 10%, transparent 10%,
+      transparent 50%, rgba(212, 36, 36, 0.05) 50%, rgba(0, 0, 0, 0.05) 90%, transparent 90%);
+  background-size: 5px 5px;
+
+
+}
+
+table {
+  width: 30%;
+  box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.2);
+  margin: 30px auto;
+  background-color: white;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
+
+.bg-body-tertiary.nuocmia {
+  background-color: rgb(84, 127, 200) !important;
+}
+
+.edit {
+  background-color: rgb(230, 46, 45);
+}
+
+.delete {
+  background-color: rgb(66, 142, 65);
+}
+
+.save {
+  background-color: rgb(70, 136, 235);
 }
